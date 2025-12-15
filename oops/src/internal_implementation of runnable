@@ -1,0 +1,19 @@
+class Thread implements Runnable{
+private Runnable target; // object reference is stored in target;
+thread(){
+ if thread parameter is not give this thread will excute;
+}
+Thread(Runnable Target){
+this.target=target;
+}
+public void run(){
+  if the object reference of the class is not given then it will excute this run method
+}
+public void start(){
+if(target!=null){
+target.run();
+if the object reference of the class is  given then it will excute this run method
+}
+else{
+this.run()
+}
