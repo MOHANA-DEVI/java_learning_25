@@ -1,0 +1,4 @@
+class abst
+{
+	public abstract void m1();
+}
